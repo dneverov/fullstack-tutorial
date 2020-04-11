@@ -1,5 +1,21 @@
 # Apollo tutorial
 
+## In Process...
+
+1) DONE https://www.apollographql.com/docs/tutorial/schema/#explore-your-schema
+
+### 2. Hook up your data sources
+#### Connect REST and SQL data to your graph
+
+2) DONE https://www.apollographql.com/docs/tutorial/data-source/
+
+### 3. Write your graph's resolvers
+#### Learn how a GraphQL query fetches data
+
+3) https://www.apollographql.com/docs/tutorial/resolvers/
+
+---
+
 This is the fullstack app for the [Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
 
 ## File structure
