@@ -12,7 +12,12 @@
 ### 3. Write your graph's resolvers
 #### Learn how a GraphQL query fetches data
 
-3) https://www.apollographql.com/docs/tutorial/resolvers/
+3) DONE https://www.apollographql.com/docs/tutorial/resolvers/
+
+### 4. Run your graph in production
+#### Learn about deployment and essential developer tooling
+
+4) https://www.apollographql.com/docs/tutorial/production/
 
 ---
 
