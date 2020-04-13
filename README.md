@@ -17,7 +17,17 @@
 ### 4. Run your graph in production
 #### Learn about deployment and essential developer tooling
 
-4) https://www.apollographql.com/docs/tutorial/production/
+4) DONE https://www.apollographql.com/docs/tutorial/production/
+
+### 5. Connect your API to a client
+#### Hook up your graph to Apollo Client
+
+5) https://www.apollographql.com/docs/tutorial/client/
+
+### 6. Fetch data with queries
+#### Learn how to fetch data with the useQuery hook
+
+6) https://www.apollographql.com/docs/tutorial/queries/
 
 ---
 
