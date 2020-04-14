@@ -1,13 +1,15 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { ApolloClient } from 'apollo-client';
 import { InMemoryCache, NormalizedCacheObject } from 'apollo-cache-inmemory';
 import { HttpLink } from 'apollo-link-http';
-// import gql from "graphql-tag";
-import { ApolloProvider } from '@apollo/react-hooks';
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { ApolloProvider, useQuery } from '@apollo/react-hooks';
+import gql from 'graphql-tag';
 import Pages from './pages';
 import Login from './pages/login';
 import injectStyles from './styles';
+
+import { resolvers, typeDefs } from './resolvers';
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
@@ -19,8 +21,6 @@ const IS_LOGGED_IN = gql`
     isLoggedIn @client
   }
 `;
-
-import { resolvers, typeDefs } from './resolvers';
 
 const client: ApolloClient<NormalizedCacheObject> = new ApolloClient({
   cache,

@@ -22,12 +22,42 @@
 ### 5. Connect your API to a client
 #### Hook up your graph to Apollo Client
 
-5) https://www.apollographql.com/docs/tutorial/client/
+5) DONE https://www.apollographql.com/docs/tutorial/client/
 
 ### 6. Fetch data with queries
 #### Learn how to fetch data with the useQuery hook
 
-6) https://www.apollographql.com/docs/tutorial/queries/
+6) DONE https://www.apollographql.com/docs/tutorial/queries/
+
+### 7. Update data with mutations
+#### Learn how to update data with the useMutation hook
+
+7) DONE https://www.apollographql.com/docs/tutorial/mutations/
+
+### 8. Manage local state
+#### How to store and query local data in the Apollo cache
+
+8) DONE https://www.apollographql.com/docs/tutorial/local-state/
+
+### Ongoing issues
+
+- ~~Fixed some compilation bugs in client~~
+- At the Cart page -- a **Book All** button doesn't work
+
+**Server** (from project root):
+
+```
+cd start/server
+npm start
+```
+
+**Client** (from project root):
+
+```
+cd start/client
+npm start
+```
+
 
 ---
 
